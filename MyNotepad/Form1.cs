@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MyNotepad
 {
-    public partial class Form1 : Form
+    public partial class Блокнот : Form
     {
-        public Form1()
+        public Блокнот()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace MyNotepad
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
